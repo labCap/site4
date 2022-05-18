@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header {
+    padding-top: 80px;
+}
+
+/* .header__inner {
+    display: flex;
+    justify-content: end;
+} */
+
+.container {
+    width: 710px;
+    padding: 0 20px;
+    margin: 0 0 0 310px;
+}
+
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.menu__items li {
+    list-style: none;
+    padding: 0 5px 10px 0;
+}
+
+.menu__items li:hover {
+    color: #f23005;
+    border-bottom: 3px solid #f23005;
+}
+
+.menu__items a:hover {
+    color: #f23005;
+}
+
+.top {
+    padding-top: 190px;
+    background-image: url(../img/top-bg.png)
+}
+
+.top__inner {
+    text-align: right;
+    margin-bottom: 210px;
+}
+
+.top__inner img {
+    padding: 0 5px;
+}
+
+.top__subtitle {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.top__title {
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 700;
+    padding: 0 0 23px 0;
+}
+
+.top__title span {
+    color: #f23005;
+}
+
+.top__descr {
+    font-weight: 100;
+    line-height: 23px;
+}
+
+.top__btns {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.top-btn:nth-child(1) {
+    color: none;
+    border: 1px solid #fff;
+    padding: 15px 38px;
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0 10px;
+}
+
+.top-btn:nth-child(2) {
+    background: #f23005;
+    padding: 15px 38px;
+    font-weight: 500;
+    font-size: 11px;
+    margin: 0 10px;
+}
+
+.top-btn:nth-child(1):hover {
+    background: #66666696;
+}
+
+.top-btn:nth-child(2):hover {
+    background: #c42400;
+}
+
+.about {
+    background: url(../img/about-bg.png) 100% 100% no-repeat;
+}
+
+.about__box {
+    padding: 10px 10px 100px;
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #0000009f;
+}
+
+.box__text {
+    height: 120px;
+    width: 120px;
+    background-color: #f23005;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0 0 40px 0;
+}
+
+.box__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.box__subtitle {
+    font-size: 11px;
+}
+
+.box__descr {
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 17px;
+    /* text-align: right; */
+    max-width: 633px;
+}
+
+.statistics {
+    background-color: #f23005;
+}
+
+.statistics__inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.statistics__box {
+    height: 330px;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.statistics__box:hover {
+    background-color: #c42400;
+}
+
+.statistics__title {
+    font-size: 63px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.info {
+    background: url(../img/info-bg.png);
+}
+
+.info__inner {
+    text-align: right;
+    padding: 245px 0;
+}
+
+.info__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    padding: 0 0 20px 0;
+}
+
+.info__descr {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.footer {
+    padding: 80px 0;
+}
+
+.footer-menu__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+    flex-direction: column;
+}.footer-menu__items li {
+    list-style: none;
+    padding:10px;
+}.footer-menu__items li:hover {
+    color: #f23005;
+    border-bottom: 3px solid #f23005;
+}
+
+.footer-menu__items a:hover {
+    color: #f23005;
+}
