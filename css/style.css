@@ -20,13 +20,12 @@ a {
 }
 
 .header {
-    padding-top: 80px;
+    padding-top: 40px;
+    position: fixed;
+    top: 0;
+    background: #000;
+    width: 100%;
 }
-
-/* .header__inner {
-    display: flex;
-    justify-content: end;
-} */
 
 .container {
     width: 710px;
@@ -54,7 +53,7 @@ a {
 
 .menu__items li {
     list-style: none;
-    padding: 0 5px 10px 0;
+    padding: 0 16px 10px 0;
 }
 
 .menu__items li:hover {
@@ -73,7 +72,7 @@ a {
 
 .top__inner {
     text-align: right;
-    margin-bottom: 210px;
+    padding-bottom: 210px;
 }
 
 .top__inner img {
@@ -237,10 +236,14 @@ a {
     align-items: center;
     margin: 0 0 20px 0;
     flex-direction: column;
-}.footer-menu__items li {
+}
+
+.footer-menu__items li {
     list-style: none;
-    padding:10px;
-}.footer-menu__items li:hover {
+    padding: 10px;
+}
+
+.footer-menu__items li:hover {
     color: #f23005;
     border-bottom: 3px solid #f23005;
 }

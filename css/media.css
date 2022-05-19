@@ -22,7 +22,7 @@
 }
 @media (max-width: 420px) {
     .header {
-        padding-top: 25px;
+        padding-top: 5px;
     }
 
     .btn__menu {
@@ -43,7 +43,7 @@
     .menu__items {
         display: none;
         position: absolute;
-        top: 95px;
+        top: 75px;
         left: 0;
         right: 0;
         width: 100%;
